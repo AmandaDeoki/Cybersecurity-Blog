@@ -1,0 +1,232 @@
+/***** BASE STYLES *****/
+
+/*** Overall font and color for the document; CSS block for the body ***/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2b2b2b;
+    }
+    
+/** Give these sections some height **/
+    
+    #about {
+        height: 600px;
+    }
+    #experience {
+        height: 550px; 
+    }
+
+    #media {
+        height: 650px;
+    }
+    
+/** GRID **/
+    
+    .full-width {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .half-width {
+        width: 600px;
+        float: left;
+    }
+    
+    .third-width {
+        width: 400px;
+        float: left;
+    }
+    
+/** HEADER CSS Section **/
+
+header {
+    height: 800px;
+    background: url("../img/cyberlock2.png");
+    background-size: cover;
+}
+
+header h1 {
+    font-family: "Lora Bold";
+    font-size: 80px;
+    color: #C5B358;
+    padding: 65px 0 65px 25px;
+}
+
+header h2 {
+    font-family: "Lora Bold";
+    font-size: 40px;
+    color: #C5B358;
+    padding: 25px 0 65px 25px;
+}
+
+nav {
+    float: right;
+    padding: 25px 25px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: #C5B358;
+    text-decoration: underline #87CEFA;
+    font-family: "Lora Bold";
+    padding-left: 80px;
+}
+
+/** ABOUT CSS Section **/
+
+#about {
+    background-color: #87CEFA;
+}
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h4 {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+#about h1 {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+#about p {
+    font-size: 16px;
+    color: black;
+    line-height: 20px;
+    padding-left: 50px;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+
+#about img#amanda-image {
+    align-items: center;
+    border: 12px solid #C5B358;
+    margin-left: 25px;
+    padding: 25px;
+}
+
+/** Experience CSS Section **/
+
+#experience {
+    background-color: #C5B358;
+    text-align: center;
+}
+
+#experience .full-width {
+    padding: 80px 0;
+}
+
+#experience img {
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+#experience h1 {
+    font-size: 30px;
+    line-height: 32px;
+    width: 195px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    text-decoration: underline #87CEFA;
+}
+
+#experience h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 195px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    text-decoration: underline #87CEFA;
+}
+
+#experience p {
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 38px;
+    color: black;
+    line-height: 20px;
+    text-align: justify;
+}
+
+/** Media CSS section **/
+
+#media {
+    background-color: #87CEFA;
+}
+
+#media .full-width {
+    padding: 100px 0;
+}
+
+#media img {
+    padding-left: 10px;
+}
+
+#media p {
+    padding-left: 10px;
+    padding-right: 45px;
+    font-size: 16px;
+    color: black;
+    line-height: 20px;
+    text-align: justify;
+}
+#media h4{
+    text-align: center;
+    padding-right: 70px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+
+/** copyrightSection **/
+
+#copyrightSection {
+    background-color: #0b2f58;
+    height: 40px;
+    padding: 5px 0;
+}
+
+#copyrightSection p {
+    height: 20px;
+    text-align: center;
+    color: #C5B358;
+}
+
+
+
+/** Blog Page **/
+
+article {
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#articletopics {
+    background-color: #87CEFA;
+    padding: 50px 50px;
+}
+
+#articletopics h1 {
+    text-align: center;
+}
+
+#firstarticle, #thirdarticle {
+    background-color:#C5B358;
+}
+
+#secondarticle {
+    background-color: #87CEFA;
+}
